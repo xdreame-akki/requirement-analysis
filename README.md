@@ -53,3 +53,37 @@ The process of Requirement Analysis involves several key activities that ensure 
 
 - **Requirement Validation**  
   The final step ensures that the documented requirements accurately reflect stakeholder needs. This is usually done through reviews, walkthroughs, and prototyping to confirm the requirements are correct and achievable.
+
+## Types of Requirements
+
+In software development, requirements are typically categorized into two main types: **Functional Requirements** and **Non-functional Requirements**. Both are essential for building a complete and effective system.
+
+### Functional Requirements
+
+Functional requirements define the specific behaviors, features, and functions of a system—essentially, what the system should do.
+
+**Definition:**  
+These are the core operations and services the system must perform in response to user input or system events.
+
+**Examples for a Booking Management System:**
+- Users must be able to create, view, update, and cancel bookings.
+- The system should allow users to search available slots by date and time.
+- Administrators can manage booking slots and set availability.
+- The system should send confirmation emails after a successful booking.
+- The application must support user login and role-based access.
+
+### Non-functional Requirements
+
+Non-functional requirements specify *how* the system performs its functions. They define the quality attributes and constraints of the system.
+
+**Definition:**  
+These requirements relate to performance, security, usability, scalability, reliability, and other operational aspects.
+
+**Examples for a Booking Management System:**
+- The system should be able to handle at least 1,000 concurrent users.
+- Booking confirmation emails should be sent within 30 seconds.
+- The application must comply with data privacy regulations (e.g., GDPR).
+- System uptime should be at least 99.9% over a 30-day period.
+- The user interface should be mobile-responsive and accessible.
+
+Both types of requirements are critical to ensure the software meets business goals, user expectations, and technical standards.
