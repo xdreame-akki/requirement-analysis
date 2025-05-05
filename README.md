@@ -87,3 +87,29 @@ These requirements relate to performance, security, usability, scalability, reli
 - The user interface should be mobile-responsive and accessible.
 
 Both types of requirements are critical to ensure the software meets business goals, user expectations, and technical standards.
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are visual representations that describe how users (actors) interact with a system. They are a part of the Unified Modeling Language (UML) and help illustrate the system's functionality from the user's perspective.
+
+### Benefits of Use Case Diagrams:
+- Provide a clear overview of system functionalities.
+- Help identify user interactions early in the development process.
+- Simplify communication between stakeholders and developers.
+- Serve as a foundation for writing detailed use cases and test cases.
+
+Below is the use case diagram for the **Booking Management System**, which includes major actors and their interactions with the system:
+
+![Use Case Diagram for Booking Management System](alx-booking-uc.png)
+
+**Key Actors:**
+- **User:** Can search for slots, create bookings, cancel bookings.
+- **Administrator:** Can manage availability, view bookings, and modify system settings.
+- **System:** Sends email notifications and verifies user login.
+
+**Key Use Cases:**
+- Search available booking slots
+- Create a booking
+- Cancel a booking
+- Receive confirmation emails
+- Manage slot availability
