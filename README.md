@@ -34,3 +34,22 @@ Requirement Analysis plays a vital role in the success of any software project. 
    Identifying and addressing requirements early in the process helps catch issues before development begins. This minimizes costly revisions, delays, and changes later in the project lifecycle.
 
 Requirement Analysis not only defines what the software should do but also aligns development efforts with business goals, making it a cornerstone of effective software engineering.
+
+## Key Activities in Requirement Analysis
+
+The process of Requirement Analysis involves several key activities that ensure all stakeholder needs are understood, documented, and validated. These steps help translate business needs into clear and actionable software requirements.
+
+- **Requirement Gathering**  
+  This is the initial step where information is collected from stakeholders, users, clients, and other sources to understand their needs and expectations for the system.
+
+- **Requirement Elicitation**  
+  Involves active techniques such as interviews, workshops, brainstorming sessions, surveys, and observations to draw out requirements that stakeholders might not explicitly state.
+
+- **Requirement Documentation**  
+  All collected and elicited requirements are formally documented in a clear, structured format—often in a Software Requirements Specification (SRS) document—for future reference and agreement.
+
+- **Requirement Analysis and Modeling**  
+  The documented requirements are analyzed to check for completeness, consistency, feasibility, and clarity. Modeling tools like use case diagrams, data flow diagrams (DFDs), and UML may be used to represent the requirements visually.
+
+- **Requirement Validation**  
+  The final step ensures that the documented requirements accurately reflect stakeholder needs. This is usually done through reviews, walkthroughs, and prototyping to confirm the requirements are correct and achievable.
