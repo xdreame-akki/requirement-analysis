@@ -4,6 +4,8 @@ This repository explores the process of **requirement analysis** in software dev
 It serves as a foundation for understanding how to gather, document, and manage software requirements effectively.  
 You'll find structured insights, examples, and best practices to support planning and communication throughout the software development lifecycle.
 
+---
+
 ## What is Requirement Analysis?
 
 **Requirement Analysis** is a crucial phase in the Software Development Life Cycle (SDLC) where the needs and expectations of users, stakeholders, and the business are identified, gathered, analyzed, and documented.  
@@ -18,7 +20,7 @@ This process ensures that all stakeholders have a clear understanding of the sys
 - Improves communication between stakeholders and developers.
 - Provides a baseline for testing and validation.
 
-In short, effective requirement analysis lays the groundwork for a successful software project by aligning the technical solution with user needs and business objectives.
+---
 
 ## Why is Requirement Analysis Important?
 
@@ -33,7 +35,7 @@ Requirement Analysis plays a vital role in the success of any software project. 
 3. **Reduces Rework and Project Costs**  
    Identifying and addressing requirements early in the process helps catch issues before development begins. This minimizes costly revisions, delays, and changes later in the project lifecycle.
 
-Requirement Analysis not only defines what the software should do but also aligns development efforts with business goals, making it a cornerstone of effective software engineering.
+---
 
 ## Key Activities in Requirement Analysis
 
@@ -53,6 +55,8 @@ The process of Requirement Analysis involves several key activities that ensure 
 
 - **Requirement Validation**  
   The final step ensures that the documented requirements accurately reflect stakeholder needs. This is usually done through reviews, walkthroughs, and prototyping to confirm the requirements are correct and achievable.
+
+---
 
 ## Types of Requirements
 
@@ -86,7 +90,7 @@ These requirements relate to performance, security, usability, scalability, reli
 - System uptime should be at least 99.9% over a 30-day period.
 - The user interface should be mobile-responsive and accessible.
 
-Both types of requirements are critical to ensure the software meets business goals, user expectations, and technical standards.
+---
 
 ## Use Case Diagrams
 
@@ -113,3 +117,31 @@ Below is the use case diagram for the **Booking Management System**, which inclu
 - Cancel a booking
 - Receive confirmation emails
 - Manage slot availability
+
+---
+
+## Acceptance Criteria
+
+**Acceptance Criteria** are specific conditions that a software product must meet to be accepted by a user, customer, or stakeholder.  
+They define the boundaries and expected behavior of a feature, ensuring that all parties share a common understanding of requirements.
+
+### Importance in Requirement Analysis:
+- Ensure that developers, testers, and stakeholders have a shared understanding of what "done" means for a feature.
+- Help define test cases and validate that requirements are implemented correctly.
+- Reduce ambiguity and scope creep by clearly outlining expectations.
+- Provide measurable goals to assess feature completion.
+
+### Example: Acceptance Criteria for Checkout Feature in Booking Management System
+
+**Feature:** *Checkout after booking selection*
+
+**Acceptance Criteria:**
+- The user must be able to review the booking summary before confirming.
+- The system should display the total cost and selected booking details.
+- The user must be able to confirm or cancel the checkout.
+- Upon confirmation, a booking confirmation number must be generated and displayed.
+- A confirmation email must be sent to the user’s registered email address within 1 minute.
+
+These criteria help the team know when the Checkout feature is ready to ship and how to test it against the original requirements.
+
+---
